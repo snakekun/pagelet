@@ -1,0 +1,9 @@
+timeout: 3000
+interceptorfactory:
+  business: ./../lib/interceptor/businessInterceptor
+  merger: ./../lib/interceptor/mergerInterceptor
+stack:  [merger,business]
+pageletDir: ./pagelet/
+pageletExt: pagelet.js
+tplDir: ./tpl/
+tplExt: .html

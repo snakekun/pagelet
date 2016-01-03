@@ -1,0 +1,20 @@
+{
+  "name": "pagelate",
+  "version": "1.0.0",
+  "description": "render page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "render page"
+  ],
+  "author": "ash461137123@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "co": "^4.6.0",
+    "ejs": "^2.3.4",
+    "js-yaml": "^3.4.6",
+    "underscore": "^1.8.3"
+  }
+}
