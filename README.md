@@ -1,0 +1,2 @@
+# pagelet
+render page
