@@ -46,7 +46,7 @@ var html =  yield {
 ```
 
 
-### standalone:
+### standalone
 init
 ```js
 var path = require('path');
