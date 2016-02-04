@@ -7,8 +7,11 @@ module.exports = function*(param, modelMap) {
       setTimeout(resolve, param.time);
     });
   }
-  modelMap.put('haha', param.haha);
-  modelMap.put('hehe', param.hehe);
+  console.log('111');
+  throw  new Error('111111');
+  console.log('2222');
+  modelMap.put('lala', param.lala);
+  modelMap.put('hehe', param.haha);
   console.log(new Date().getTime() + 'test2--------success');
   return 'success';
 };
