@@ -12,5 +12,7 @@ module.exports = {
     this.pagelet = function*(pageleName, params){
       return controller.render(pageleName, params)
     }
+
+    yield next;
   }
 }
