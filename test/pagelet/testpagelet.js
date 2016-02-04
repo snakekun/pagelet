@@ -10,6 +10,5 @@ module.exports = function*(param, modelMap){
       }
     modelMap.put('haha', param.haha);
     modelMap.put('hehe', param.hehe);
-  console.log(new Date().getTime()+'test1--------success');
     return 'success';
 };

@@ -8,7 +8,9 @@ var controller = require('./lib/controller');
 
 module.exports = {
   init : Config.init,
-  render: function*(pageleName, params){
-    return controller.render(pageleName, params)
+  middleware: function*(next){
+    this.pagelet = function*(pageleName, params){
+      return controller.render(pageleName, params)
+    }
   }
 }
