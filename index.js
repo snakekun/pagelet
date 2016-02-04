@@ -14,5 +14,8 @@ module.exports = {
     }
 
     yield next;
+  },
+  render: function*(pageleName, params){
+    return controller.render(pageleName, params)
   }
 }
